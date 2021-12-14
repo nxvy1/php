@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+table{
+    background: LightGoldenrodYellow;
+    color: black;
+    font-size: 2rem;
+}
+caption{
+    background: Khaki;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 0.2rem solid;
+    border-bottom-color: white;
+}
+tr:hover{
+    background-color: Moccasin;
+    font-weight: bold;
+}
+a{
+    margin: 0px;
+    padding: 8px 10px;
+    background-color: blue;
+    color: aqua;
+    border-radius:15px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: aquamarine;
+}
+.form_container{
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.form_header{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.form_row{
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.from_row label{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.form_row:hover{
+    background-color: aquamarine;
+}
+
+.form_input{
+    padding: 0 5px;
+    border: 2px solid #e2e2e2;
+    border-radius: 10px;
+}
+.form_input:hover{
+    border: 2px solid black;
+}
+.form_input:focus{
+    outline: none;
+    border: 2px solid #f7f7f7;
+}
+.form_footer{
+    width: 100%;
+    padding: 10px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+.form_submit{
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+    color: black;
+}
+.form_submit:hover{
+    background-color: aqua;
+}
